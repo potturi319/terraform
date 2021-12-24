@@ -1,4 +1,4 @@
-provider "aws" "sumanth" {
+provider "aws"  {
     region = "eu-north-1"
 }
 resource "aws_instance" "ec2-sumanth" {
